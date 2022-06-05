@@ -1,0 +1,12 @@
+CRITICAL - 2022-04-07 19:34:09 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\spk_seminar\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\spk_seminar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\spk_seminar\system\View\View.php(226): CodeIgniter\View\View->render('dashboard/layou...', Array, true)
+#3 C:\xampp\htdocs\spk_seminar\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/stude...', Array, true)
+#4 C:\xampp\htdocs\spk_seminar\app\Controllers\Student\Dashboard.php(59): view('dashboard/stude...', Array)
+#5 C:\xampp\htdocs\spk_seminar\system\CodeIgniter.php(832): App\Controllers\Student\Dashboard->add_participant()
+#6 C:\xampp\htdocs\spk_seminar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\Dashboard))
+#7 C:\xampp\htdocs\spk_seminar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spk_seminar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spk_seminar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

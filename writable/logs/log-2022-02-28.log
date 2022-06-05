@@ -1,0 +1,14 @@
+CRITICAL - 2022-02-28 19:32:41 --> Undefined variable $title
+#0 C:\xampp\htdocs\spk_seminar\app\Views\auth\layout\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\spk_seminar\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spk_seminar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spk_seminar\system\View\View.php(226): CodeIgniter\View\View->render('auth/layout/tem...', Array, true)
+#4 C:\xampp\htdocs\spk_seminar\system\Common.php(1089): CodeIgniter\View\View->render('\\App\\Views\\Auth...', Array, true)
+#5 C:\xampp\htdocs\spk_seminar\vendor\myth\auth\src\Controllers\AuthController.php(429): view('\\App\\Views\\Auth...', Array)
+#6 C:\xampp\htdocs\spk_seminar\vendor\myth\auth\src\Controllers\AuthController.php(57): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth...', Array)
+#7 C:\xampp\htdocs\spk_seminar\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->login()
+#8 C:\xampp\htdocs\spk_seminar\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\spk_seminar\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\spk_seminar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\spk_seminar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
